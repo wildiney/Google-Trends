@@ -1,7 +1,7 @@
-package com.wildiney.google_trends.parsers
+package com.wildiney.google_trends.domain.parsers
 
-import com.wildiney.google_trends.models.RssFeed
-import com.wildiney.google_trends.models.RssItem
+import com.wildiney.google_trends.domain.model.RssFeed
+import com.wildiney.google_trends.domain.model.RssItem
 import org.w3c.dom.Element
 import javax.xml.parsers.DocumentBuilderFactory
 

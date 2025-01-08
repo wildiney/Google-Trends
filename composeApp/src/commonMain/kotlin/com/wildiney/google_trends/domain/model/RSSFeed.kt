@@ -1,4 +1,4 @@
-package com.wildiney.google_trends.models
+package com.wildiney.google_trends.domain.model
 
 data class RssItem(
     val title: String,
