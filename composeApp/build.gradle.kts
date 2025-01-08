@@ -89,12 +89,9 @@ compose.desktop {
         javaHome = System.getenv("JAVA_HOME")
 
         nativeDistributions {
-            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
+            targetFormats(TargetFormat.Exe, TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "Google Trends"
             packageVersion = "1.0.0"
-
-
-
         }
     }
 }
